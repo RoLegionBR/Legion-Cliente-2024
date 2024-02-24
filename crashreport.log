@@ -1,0 +1,279 @@
+== application crashed
+app name: Pokedash
+app version: 0.6.3
+build compiler: Visual Studio 2015
+build date: Jan 19 2023
+build type: RelWithDebInfo
+build revision: 0 (devel)
+crash date: Jan 20 2023 12:39:17
+exception: Access violation (0xc0000005)
+exception address: 0x70966252
+  backtrace:
+    0: C:\Windows\SYSTEM32\VCRUNTIME140.dll(IsExceptionObjectToBeDestroyed+0x12) [0x0000000070966252]
+    1: C:\Windows\SYSTEM32\VCRUNTIME140.dll(is_exception_typeof+0xbf3) [0x0000000070966F93]
+    2: C:\Windows\SYSTEM32\VCRUNTIME140.dll(is_exception_typeof+0x2e5) [0x0000000070966685]
+    3: C:\Windows\SYSTEM32\VCRUNTIME140.dll(is_exception_typeof+0x577) [0x0000000070966917]
+    4: C:\Windows\SYSTEM32\VCRUNTIME140.dll(is_exception_typeof+0x950) [0x0000000070966CF0]
+    5: C:\Windows\SYSTEM32\VCRUNTIME140.dll(_CxxFrameHandler+0x26) [0x000000007096F076]
+    6: C:\Windows\SYSTEM32\ntdll.dll(RtlInterlockedCompareExchange64+0x1f2) [0x0000000077C88CA2]
+    7: C:\Windows\SYSTEM32\ntdll.dll(RtlInterlockedCompareExchange64+0x1c4) [0x0000000077C88C74]
+    8: C:\Windows\SYSTEM32\ntdll.dll(KiUserExceptionDispatcher+0x26) [0x0000000077C68BA6]
+    9: C:\Windows\SYSTEM32\VCRUNTIME140.dll(CxxThrowException+0x66) [0x0000000070967E86]
+    10: E:\pokedashpota1.02_client\otclient.exe(LuaInterface::safeCall+0x18f) [0x000000000037F75F]
+    11: E:\pokedashpota1.02_client\otclient.exe(Module::unload+0x73) [0x00000000003654A3]
+    12: E:\pokedashpota1.02_client\otclient.exe(ModuleManager::unloadModules+0xa5) [0x0000000000366ED5]
+    13: E:\pokedashpota1.02_client\otclient.exe(Application::deinit+0xf7) [0x000000000035E8B7]
+    14: E:\pokedashpota1.02_client\otclient.exe(main+0x27b) [0x00000000003BDF8B]
+    15: E:\pokedashpota1.02_client\otclient.exe(__scrt_common_main_seh+0xf9) [0x00000000002ED066]
+    16: C:\Windows\System32\KERNEL32.DLL(BaseThreadInitThunk+0x19) [0x0000000076047D69]
+    17: C:\Windows\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x6b) [0x0000000077C5BB9B]
+    18: C:\Windows\SYSTEM32\ntdll.dll(RtlClearBits+0xbf) [0x0000000077C5BB1F]
+
+== application crashed
+app name: Legion Pokemon
+app version: 0.6.3
+build compiler: Visual Studio 2015
+build date: Feb  2 2023
+build type: RelWithDebInfo
+build revision: 0 (devel)
+crash date: Feb 11 2023 08:04:15
+exception: Access violation (0xc0000005)
+exception address: 0x00782056
+  backtrace:
+    0: E:\pokedashpota1.02_client\Poke Fans.exe(ThingType::getTextureEX+0x436) [0x0000000000782056]
+    1: E:\pokedashpota1.02_client\Poke Fans.exe(ThingType::drawEX+0x2f) [0x000000000078422F]
+    2: E:\pokedashpota1.02_client\Poke Fans.exe(Creature::internalDrawOutfit+0x6d4) [0x000000000073C064]
+    3: E:\pokedashpota1.02_client\Poke Fans.exe(Creature::draw+0x26c) [0x000000000073C82C]
+    4: E:\pokedashpota1.02_client\Poke Fans.exe(Tile::draw+0x8b5) [0x00000000007880F5]
+    5: E:\pokedashpota1.02_client\Poke Fans.exe(MapView::draw+0x3c8) [0x0000000000764418]
+    6: E:\pokedashpota1.02_client\Poke Fans.exe(UIMap::drawSelf+0x127) [0x000000000078BF17]
+    7: E:\pokedashpota1.02_client\Poke Fans.exe(UIWidget::draw+0xbb) [0x00000000007E219B]
+    8: E:\pokedashpota1.02_client\Poke Fans.exe(UIWidget::drawChildren+0x1c6) [0x00000000007E2046]
+    9: E:\pokedashpota1.02_client\Poke Fans.exe(UIWidget::draw+0x12b) [0x00000000007E220B]
+    10: E:\pokedashpota1.02_client\Poke Fans.exe(UIWidget::drawChildren+0x1c6) [0x00000000007E2046]
+    11: E:\pokedashpota1.02_client\Poke Fans.exe(UIWidget::draw+0x12b) [0x00000000007E220B]
+    12: E:\pokedashpota1.02_client\Poke Fans.exe(UIManager::render+0x73) [0x00000000007D4B43]
+    13: E:\pokedashpota1.02_client\Poke Fans.exe(GraphicalApplication::run+0x589) [0x00000000007935B9]
+    14: E:\pokedashpota1.02_client\Poke Fans.exe(main+0x271) [0x00000000007EDF21]
+    15: E:\pokedashpota1.02_client\Poke Fans.exe(__scrt_common_main_seh+0xf9) [0x000000000071CEC6]
+    16: C:\Windows\System32\KERNEL32.DLL(BaseThreadInitThunk+0x19) [0x0000000076047D69]
+    17: C:\Windows\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x6b) [0x0000000077C5BB9B]
+    18: C:\Windows\SYSTEM32\ntdll.dll(RtlClearBits+0xbf) [0x0000000077C5BB1F]
+
+== application crashed
+app name: PokeFans
+app version: 0.6.3
+build compiler: Visual Studio 2015
+build date: Feb  2 2023
+build type: RelWithDebInfo
+build revision: 0 (devel)
+crash date: Feb 11 2023 08:04:37
+exception: Access violation (0xc0000005)
+exception address: 0x00782056
+  backtrace:
+    0: E:\pokedashpota1.02_client\Poke Fans.exe(ThingType::getTextureEX+0x436) [0x0000000000782056]
+    1: E:\pokedashpota1.02_client\Poke Fans.exe(ThingType::drawEX+0x2f) [0x000000000078422F]
+    2: E:\pokedashpota1.02_client\Poke Fans.exe(Creature::internalDrawOutfit+0x6d4) [0x000000000073C064]
+    3: E:\pokedashpota1.02_client\Poke Fans.exe(Creature::draw+0x26c) [0x000000000073C82C]
+    4: E:\pokedashpota1.02_client\Poke Fans.exe(Tile::draw+0x8b5) [0x00000000007880F5]
+    5: E:\pokedashpota1.02_client\Poke Fans.exe(MapView::draw+0x3c8) [0x0000000000764418]
+    6: E:\pokedashpota1.02_client\Poke Fans.exe(UIMap::drawSelf+0x127) [0x000000000078BF17]
+    7: E:\pokedashpota1.02_client\Poke Fans.exe(UIWidget::draw+0xbb) [0x00000000007E219B]
+    8: E:\pokedashpota1.02_client\Poke Fans.exe(UIWidget::drawChildren+0x1c6) [0x00000000007E2046]
+    9: E:\pokedashpota1.02_client\Poke Fans.exe(UIWidget::draw+0x12b) [0x00000000007E220B]
+    10: E:\pokedashpota1.02_client\Poke Fans.exe(UIWidget::drawChildren+0x1c6) [0x00000000007E2046]
+    11: E:\pokedashpota1.02_client\Poke Fans.exe(UIWidget::draw+0x12b) [0x00000000007E220B]
+    12: E:\pokedashpota1.02_client\Poke Fans.exe(UIManager::render+0x73) [0x00000000007D4B43]
+    13: E:\pokedashpota1.02_client\Poke Fans.exe(GraphicalApplication::run+0x589) [0x00000000007935B9]
+    14: E:\pokedashpota1.02_client\Poke Fans.exe(main+0x271) [0x00000000007EDF21]
+    15: E:\pokedashpota1.02_client\Poke Fans.exe(__scrt_common_main_seh+0xf9) [0x000000000071CEC6]
+    16: C:\Windows\System32\KERNEL32.DLL(BaseThreadInitThunk+0x19) [0x0000000076047D69]
+    17: C:\Windows\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x6b) [0x0000000077C5BB9B]
+    18: C:\Windows\SYSTEM32\ntdll.dll(RtlClearBits+0xbf) [0x0000000077C5BB1F]
+
+== application crashed
+app name: PokeFans
+app version: 0.6.3
+build compiler: Visual Studio 2015
+build date: Feb  2 2023
+build type: RelWithDebInfo
+build revision: 0 (devel)
+crash date: Feb 18 2023 11:11:44
+exception: Access violation (0xc0000005)
+exception address: 0x00fb2056
+  backtrace:
+    0: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xec856) [0x0000000000FB2056]
+    1: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xeea2f) [0x0000000000FB422F]
+    2: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xa6864) [0x0000000000F6C064]
+    3: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xa702c) [0x0000000000F6C82C]
+    4: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xf28f5) [0x0000000000FB80F5]
+    5: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xcec18) [0x0000000000F94418]
+    6: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xf6717) [0x0000000000FBBF17]
+    7: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c99b) [0x000000000101219B]
+    8: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c846) [0x0000000001012046]
+    9: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14ca0b) [0x000000000101220B]
+    10: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c846) [0x0000000001012046]
+    11: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14ca0b) [0x000000000101220B]
+    12: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x13f343) [0x0000000001004B43]
+    13: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xfddb9) [0x0000000000FC35B9]
+    14: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x158721) [0x000000000101DF21]
+    15: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x876c6) [0x0000000000F4CEC6]
+    16: C:\Windows\System32\KERNEL32.DLL(BaseThreadInitThunk+0x19) [0x0000000076697D69]
+    17: C:\Windows\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x6b) [0x00000000770DBB9B]
+    18: C:\Windows\SYSTEM32\ntdll.dll(RtlClearBits+0xbf) [0x00000000770DBB1F]
+
+== application crashed
+app name: PokeFans
+app version: 0.6.3
+build compiler: Visual Studio 2015
+build date: Feb 25 2023
+build type: RelWithDebInfo
+build revision: 0 (devel)
+crash date: Feb 25 2023 08:46:23
+exception: Access violation (0xc0000005)
+exception address: 0x008a1fd6
+  backtrace:
+    0: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xec7d6) [0x00000000008A1FD6]
+    1: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xee9af) [0x00000000008A41AF]
+    2: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xa6834) [0x000000000085C034]
+    3: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xa700c) [0x000000000085C80C]
+    4: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xf2845) [0x00000000008A8045]
+    5: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xceb88) [0x0000000000884388]
+    6: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xf6667) [0x00000000008ABE67]
+    7: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c90b) [0x000000000090210B]
+    8: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c7b6) [0x0000000000901FB6]
+    9: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c97b) [0x000000000090217B]
+    10: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c7b6) [0x0000000000901FB6]
+    11: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c97b) [0x000000000090217B]
+    12: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x13f2a3) [0x00000000008F4AA3]
+    13: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xfdcf9) [0x00000000008B34F9]
+    14: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x158691) [0x000000000090DE91]
+    15: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x87686) [0x000000000083CE86]
+    16: C:\Windows\System32\KERNEL32.DLL(BaseThreadInitThunk+0x19) [0x0000000076697D69]
+    17: C:\Windows\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x6b) [0x00000000770DBB9B]
+    18: C:\Windows\SYSTEM32\ntdll.dll(RtlClearBits+0xbf) [0x00000000770DBB1F]
+
+== application crashed
+app name: PokeFans
+app version: 0.6.3
+build compiler: Visual Studio 2015
+build date: Feb 25 2023
+build type: RelWithDebInfo
+build revision: 0 (devel)
+crash date: Feb 25 2023 08:46:59
+exception: Access violation (0xc0000005)
+exception address: 0x008a1fd6
+  backtrace:
+    0: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xec7d6) [0x00000000008A1FD6]
+    1: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xee9af) [0x00000000008A41AF]
+    2: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xa6834) [0x000000000085C034]
+    3: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xa700c) [0x000000000085C80C]
+    4: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xf2845) [0x00000000008A8045]
+    5: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xceb88) [0x0000000000884388]
+    6: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xf6667) [0x00000000008ABE67]
+    7: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c90b) [0x000000000090210B]
+    8: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c7b6) [0x0000000000901FB6]
+    9: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c97b) [0x000000000090217B]
+    10: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c7b6) [0x0000000000901FB6]
+    11: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c97b) [0x000000000090217B]
+    12: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x13f2a3) [0x00000000008F4AA3]
+    13: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xfdcf9) [0x00000000008B34F9]
+    14: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x158691) [0x000000000090DE91]
+    15: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x87686) [0x000000000083CE86]
+    16: C:\Windows\System32\KERNEL32.DLL(BaseThreadInitThunk+0x19) [0x0000000076697D69]
+    17: C:\Windows\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x6b) [0x00000000770DBB9B]
+    18: C:\Windows\SYSTEM32\ntdll.dll(RtlClearBits+0xbf) [0x00000000770DBB1F]
+
+== application crashed
+app name: PokeFans
+app version: 0.6.3
+build compiler: Visual Studio 2015
+build date: Feb 25 2023
+build type: RelWithDebInfo
+build revision: 0 (devel)
+crash date: Feb 25 2023 08:47:09
+exception: Access violation (0xc0000005)
+exception address: 0x008a1fd6
+  backtrace:
+    0: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xec7d6) [0x00000000008A1FD6]
+    1: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xee9af) [0x00000000008A41AF]
+    2: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xa6834) [0x000000000085C034]
+    3: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xa700c) [0x000000000085C80C]
+    4: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xf2845) [0x00000000008A8045]
+    5: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xceb88) [0x0000000000884388]
+    6: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xf6667) [0x00000000008ABE67]
+    7: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c90b) [0x000000000090210B]
+    8: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c7b6) [0x0000000000901FB6]
+    9: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c97b) [0x000000000090217B]
+    10: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c7b6) [0x0000000000901FB6]
+    11: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c97b) [0x000000000090217B]
+    12: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x13f2a3) [0x00000000008F4AA3]
+    13: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xfdcf9) [0x00000000008B34F9]
+    14: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x158691) [0x000000000090DE91]
+    15: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x87686) [0x000000000083CE86]
+    16: C:\Windows\System32\KERNEL32.DLL(BaseThreadInitThunk+0x19) [0x0000000076697D69]
+    17: C:\Windows\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x6b) [0x00000000770DBB9B]
+    18: C:\Windows\SYSTEM32\ntdll.dll(RtlClearBits+0xbf) [0x00000000770DBB1F]
+
+== application crashed
+app name: PokeFans
+app version: 0.6.3
+build compiler: Visual Studio 2015
+build date: Feb 25 2023
+build type: RelWithDebInfo
+build revision: 0 (devel)
+crash date: Mar 06 2023 13:43:08
+exception: Access violation (0xc0000005)
+exception address: 0x00d81c56
+  backtrace:
+    0: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xec456) [0x0000000000D81C56]
+    1: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xee62f) [0x0000000000D83E2F]
+    2: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xa6564) [0x0000000000D3BD64]
+    3: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xa6d3c) [0x0000000000D3C53C]
+    4: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xf24d5) [0x0000000000D87CD5]
+    5: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xce838) [0x0000000000D64038]
+    6: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xf62f7) [0x0000000000D8BAF7]
+    7: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c5ab) [0x0000000000DE1DAB]
+    8: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c456) [0x0000000000DE1C56]
+    9: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c61b) [0x0000000000DE1E1B]
+    10: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c456) [0x0000000000DE1C56]
+    11: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c61b) [0x0000000000DE1E1B]
+    12: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x13ef43) [0x0000000000DD4743]
+    13: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xfd999) [0x0000000000D93199]
+    14: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x158321) [0x0000000000DEDB21]
+    15: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x876c6) [0x0000000000D1CEC6]
+    16: C:\Windows\System32\KERNEL32.DLL(BaseThreadInitThunk+0x19) [0x0000000075C57D69]
+    17: C:\Windows\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x6b) [0x000000007720BB9B]
+    18: C:\Windows\SYSTEM32\ntdll.dll(RtlClearBits+0xbf) [0x000000007720BB1F]
+
+== application crashed
+app name: PokeFans
+app version: 0.6.3
+build compiler: Visual Studio 2015
+build date: Feb 25 2023
+build type: RelWithDebInfo
+build revision: 0 (devel)
+crash date: Mar 06 2023 13:45:08
+exception: Access violation (0xc0000005)
+exception address: 0x00d81c56
+  backtrace:
+    0: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xec456) [0x0000000000D81C56]
+    1: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xee62f) [0x0000000000D83E2F]
+    2: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xa6564) [0x0000000000D3BD64]
+    3: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xa6d3c) [0x0000000000D3C53C]
+    4: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xf24d5) [0x0000000000D87CD5]
+    5: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xce838) [0x0000000000D64038]
+    6: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xf62f7) [0x0000000000D8BAF7]
+    7: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c5ab) [0x0000000000DE1DAB]
+    8: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c456) [0x0000000000DE1C56]
+    9: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c61b) [0x0000000000DE1E1B]
+    10: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c456) [0x0000000000DE1C56]
+    11: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x14c61b) [0x0000000000DE1E1B]
+    12: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x13ef43) [0x0000000000DD4743]
+    13: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0xfd999) [0x0000000000D93199]
+    14: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x158321) [0x0000000000DEDB21]
+    15: E:\pokedashpota1.02_client\Poke Fans.exe(PHYSFS_utf8ToUcs4+0x876c6) [0x0000000000D1CEC6]
+    16: C:\Windows\System32\KERNEL32.DLL(BaseThreadInitThunk+0x19) [0x0000000075C57D69]
+    17: C:\Windows\SYSTEM32\ntdll.dll(RtlInitializeExceptionChain+0x6b) [0x000000007720BB9B]
+    18: C:\Windows\SYSTEM32\ntdll.dll(RtlClearBits+0xbf) [0x000000007720BB1F]
+

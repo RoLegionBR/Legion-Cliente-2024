@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backup",
+    "\\data",
+    "\\modules",
+    "\\modules\\.project",
+    "\\modules\\client",
+    "\\modules\\client_background",
+    "\\modules\\client_entergame",
+    "\\modules\\client_locales",
+    "\\modules\\store_module"
+  ],
+  "PreviewInSolutionExplorer": false
+}
